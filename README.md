@@ -1,4 +1,4 @@
-# Proyecto de Software 2016
+# Proyecto de Software 2016 <hr>
 <br>
 En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Proyecto de Software**.
 Cada **práctica** tiene un :file_folder: para sus ejercicios.
@@ -7,7 +7,7 @@ Cada **práctica** tiene un :file_folder: para sus ejercicios.
 * [Práctica 1](https://gitlab.com/saczuac/proyectoDeSoftware/tree/master/P1) ===> **In progress**
 <br>
 
-### Tecnologías utilizadas en la materia
+### Tecnologías utilizadas en la materia <hr>
 
 + `PHP`
 + `HTML5`
