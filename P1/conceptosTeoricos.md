@@ -3,19 +3,20 @@
 ##### RFC <hr>
 
  *Request For Comments* son archivos históricos que promueven nuevas tecnologías documentandolas y definiendo un estándar mundial de uso de las mismas. Tienen un identificador único y una RFC puede invalidar a una RFC vieja (se actualizan).
-<br>
+<br><br>
 
 ##### W3C <hr>
 
  La *W3C* es una organización internacional creada por el británico **Tim Berners Lee** en 1994. Esta organización es la encargada de definir todos los estándares de la web. Cuando se habla de un HTML limpio se está queriendo decir que cumple con todos los estándares actuales de la W3C. Cumplir estos estándares es muy importante para el buen posicionamiento en buscadores del sitio desarrollado en cuestión.
 
  + **Validadores**: Se trata de servicios normalmente gratuitos que evalúan el código (tanto de la contenido HTML como de la presentación CSS), e informan si tienen errores o están bien escritos. Son necesarios para saber si una página cumple con los estándares definidos por la *W3C*
- <br>
+
+<br><br>
 
 ##### DNS<hr>
 
  *Domain Name Servers* son servidores de traducción de nombres. Son necesarios en la Web ya que facilitan la traducción de IP a dominio. Es decir, asocian un dominio por ej *hola.org* a la IP pública donde se encuentra ese recurso en la Web. Los DNS constituyen una BD descentralizada y jerárquica en todo el mundo, hay DNS de tier 1 gratuitas por ej: 8.8.8.8 mundialmente usadas. Sin un servicio de DNS se podría acceder a la web igual pero a través de direcciones IP.
- <br>
+ <br><br>
 
 ##### URI y URL <hr>
 
@@ -27,7 +28,8 @@
   + el esquema o protocolo utilizado para acceder al recurso
   + el nombre de dominio de la máquina que almacena el recurso
   + el nombre del recurso mismo dado como un camino dentro de la máquina (recurso)‏.
-  <br>
+
+<br><br>
 
 ##### HTTP<hr>
 
@@ -36,7 +38,8 @@
   + Versión 1.0: Sin Pipelinening se abría una conexión TCP por cada recurso solicitado al servidor web.
 
   + Versión 1.1: Con Pipelinening se piden recursos sobre una misma conexión TCP. También se implementan nuevos mensajes como Trace que sirve para debugging.
-  <br>
+
+<br><br>
 
 ##### WAI <hr>
 
