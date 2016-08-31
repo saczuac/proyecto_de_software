@@ -1,4 +1,4 @@
-# Proyecto de Software 2016 <hr>
+# Proyecto de Software 2016
 <br>
 En este repositorio se encuentran ejercicios prácticos resueltos de la materia **Proyecto de Software**.
 Cada **práctica** tiene un :file_folder: para sus ejercicios.
