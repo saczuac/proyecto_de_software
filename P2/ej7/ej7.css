@@ -1,0 +1,13 @@
+ul, li {
+    display: inline;
+    text-align: left;
+}	 
+
+@media only screen and (max-width: 500px) {
+  ul, li {
+    display: block;
+    background-color: yellow;
+    text-align: left;
+	}	 
+}
+
