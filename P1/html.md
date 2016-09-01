@@ -1,5 +1,5 @@
 # HTML y CSS
-
+<br><br>
 #### HTML <hr>
 + `HyperText Markup Language` especifica el formato de las páginas web, separando el contenido de las páginas de su formato de presentación.
 
@@ -23,7 +23,7 @@
 
 + Indica la forma en que se validará el documento.
 
-+ `HTML5`:
++ `HTML5`
 
 ```
 <!DOCTYPE html>
@@ -46,37 +46,37 @@
 ```
 
 + El <code>name</code> muestra el nombre de la etiqueta y el <code>content</code> el contenido de esa etiqueta. Los meta tags pueden cerrarse de dos formas: > o /> . La segunda es más correcta aunque los navegadores no muestran diferencia con una u otra.
-
+<br><br>
 + **meta tag para que los robots de búsqueda no indexen las imágenes del sitio**:
 
 ```
 <meta name="robots" content="noimageindex">
 ```
-
+<br>
 + **meta tag para que los robots indexen el sitio pero no los links del sitio**:
 
 ```
 <meta name="robots"  content="nofollow">
 ```
-
+<br>
 + **meta tag para indicar que hoja de estilo se usará**:
 
 ```
  <meta http-equiv="Content-Style-Type" content="text/css">
 ```
-
+<br>
 + **meta tag para indicar que se cambia la hoja de estilo para imprimir**
 
 ```
  <meta http-equiv="Content-Style-Type" media="print" content="print/css">
 ```
-
+<br>
 + **meta tag el lenguaje por defecto será JavaScript**
 
 ```
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 ```
-<br><br>
+<br>
 #### Formas de agregar estilos a una página <hr>
 
 + Mediante URL a el archivo `CSS` con la etiqueta <code>link</code>
@@ -94,14 +94,14 @@ Siempre conviene desde un archivo apartado `.css`.
 + Forma general: <code>&nombreEntidad;</code>
 <br><br>
 ![Entidades](entidades.png)
-
+<br><br>
 #### Semántica Web <hr>
 
 + Es un concepto que involucra la incorporación de metadatos para agregar significado a la información del documento HTML.
 
 + Se debe seguir un formalismo adecuado para que se lo pueda procesar en forma adecuada
 
-+ **Contenidos semánticos**: `HTML5` introdujo elementos estructurales:<code> <article>, <header>, <footer>, <nav>, <section> </code>
++ **Contenidos semánticos**: `HTML5` introdujo elementos estructurales: `article`, `header`, `footer`, `nav`, `section` 
 <br><br>
 #### Microformatos <hr>
 
