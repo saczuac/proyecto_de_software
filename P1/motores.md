@@ -3,7 +3,7 @@
 ##### ¿Qué son los motores de búsqueda? <hr>
 
 Un motor de búsqueda, también conocido como buscador, es un sistema informático que busca archivos almacenados en servidores web gracias a su spider (también llamado araña web).1 Un ejemplo son los buscadores de Internet (algunos buscan únicamente en la web, pero otros lo hacen además en noticias, servicios como Gopher, FTP, etc.) cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda Página de resultados del buscador es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas.
-
+<br>
 **Algunos buscadores**
 
 + Ask.com (antiguamente Ask Jeeves)
@@ -28,8 +28,8 @@ Un sitemap es un archivo en el que se pueden enumerar las páginas de tu sitio w
 
 Además, tu sitemap puede proporcionar valiosos metadatos asociados a las páginas que enumeras en el sitemap. Los metadatos son información sobre una página web, como, por ejemplo, cuándo se ha actualizado la página por última vez, con qué frecuencia se cambia y la importancia de esta en relación con otras URL del sitio web.
 
-[Más información sobre sitemap.xml](https://support.google.com/webmasters/answer/156184?hl=es)
-[Cómo hacer un sitemap](http://www.maestrosdelweb.com/sitemap/)
++ [Más información sobre sitemap.xml](https://support.google.com/webmasters/answer/156184?hl=es)
++ [Cómo hacer un sitemap](http://www.maestrosdelweb.com/sitemap/)
 
 ![Sitemap](XmlSiteMap.png)
 <br><br>
