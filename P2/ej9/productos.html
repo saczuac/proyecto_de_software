@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ABM Productos</title>
+        <link rel="stylesheet" type="text/css" href="ej9.css">
+    </head>
+    <body>
+    <header><h1>Web del Buffet</h1></header>
+    <nav>
+        <ul>
+           <li><a href="ej9.html">Inicio</a></li>
+           <li><a href="">Productos</a></li>
+       </ul>
+    </nav>
+
+    <h2>Alta productos</h2><hr><br>
+    <div class="container">
+    <form method="post" action="productos.php">
+      <p> Ingrese datos del producto para dar de alta</p>
+      <label for="productName">Nombre: </label>
+      <input type="text" id="productName" maxlength="20" required="true"></input>
+      <br><br>
+      <label for="markName">Marca: </label>
+      <input type="text" id="markName" maxlength="20" required="true"></input>
+      <br><br>
+      <label for="barcode">Código: </label>
+      <input type="text" id="barcode" maxlength="20" required="true"></input>
+      <br><br>
+      <label for="stockAct">Stock actual: </label>
+      <input type="number" id="stockAct" maxlength="20" value="0"></input>
+      <br><br>
+      <label for="stockMin">Stock mínimo: </label>
+      <input type="number" id="stockMIn" maxlength="20" required="true"></input>
+      <br><br>
+      <label for="category">Categoría: </label>
+      <select id="category" required="true">
+       <option value="" selected="selected">Seleccione</option>
+       <option value="food">Alimento</option>
+       <option value="drink" selected>Bebida</option>
+       <option value="library">Librería</option>
+      </select>
+      <br><br>
+      <label for="providerName">Proovedor: </label>
+      <input type="text" id="providerName" maxlength="20" required="true"></input>
+      <br><br>
+      <label for="price">Precio de venta unitario: </label>
+      <input type="number" id="price" maxlength="20" required="true" min="0" step="0.5"></input>
+      <br><br>
+      <input type="submit" value="Agregar"/>
+    </form>
+  </div>
+    <footer>Pie de página</footer>
+    </body>
+</html>
