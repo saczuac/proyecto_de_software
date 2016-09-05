@@ -1,0 +1,28 @@
+ul, li {
+    display: inline;
+    text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+  ul, li {
+    display: block;
+    text-align: left;
+	}
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+section {
+  word-wrap: break-word;
+  margin: 0 1.5%;
+  width: 20%;
+}
