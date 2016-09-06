@@ -1,0 +1,37 @@
+ul, li {
+    display: block;
+    text-align: left;
+    list-style-type: none;
+    width: 200px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    background-color: #003366;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+section {
+  word-wrap: break-word;
+  margin: 0 1.5%;
+  width: 20%;
+}

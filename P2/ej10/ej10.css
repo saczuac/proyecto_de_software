@@ -1,0 +1,28 @@
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    img {
+        height: 220px;
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    img {
+        height: 500px;
+        width: 500px;
+    }
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
