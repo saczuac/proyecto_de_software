@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; }
+
+p {
+    font-size:100%;
+}
+
+h1 {
+    font-size:160%;
+}
+
+h2 {
+    font-size:150%;
+}
+
+h3 {
+    font-size:140%;
+}
+
+h4 {
+    font-size:120%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+del {
+    text-decoration: line-through;
+}
