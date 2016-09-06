@@ -5,7 +5,7 @@ Cada **práctica** tiene un :file_folder: para sus ejercicios.
 <br><br>
 ## Prácticas 
 * [Práctica 1](https://gitlab.com/saczuac/proyectoDeSoftware/tree/master/P1)
-* [Práctica 2](https://gitlab.com/saczuac/proyectoDeSoftware/tree/master/P2) ===> **In progress**
+* [Práctica 2](https://gitlab.com/saczuac/proyectoDeSoftware/tree/master/P2) 
 <br>
 
 ### Tecnologías utilizadas en la materia <hr>
