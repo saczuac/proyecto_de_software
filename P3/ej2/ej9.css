@@ -3,6 +3,18 @@ ul, li {
     text-align: left;
 }
 
+.button{
+    text-decoration: none; font: menu;
+    display: inline-block; padding: 2px 8px;
+    background: ButtonFace; color: ButtonText;
+    border-style: solid; border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+
+.button:active {
+    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+
 .error {
   border-width: 3px;
   border-color: red;
@@ -31,7 +43,14 @@ nav {
     clear: both;
     margin: 0 auto;
 }
+
 .container input {
     width: 100%;
+    clear: both;
+}
+
+.container a {
+    margin-top: 2em;
+    width: 95%;
     clear: both;
 }
