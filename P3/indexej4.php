@@ -2,11 +2,11 @@
 session_start();
 if (! empty($_SESSION['logged_in']))
 {
-    echo "<h1>Index..</h1><a href='logout.php'>Logout</a>";
+    echo "<li><a href='/proyectoDeSoftware/P3/logout.php'>Logout</a></li>";
 }
 else
 {
-    echo 'No estás logueado!. <a href="ej4.php">Click aquí</a> para loguearse.';
+    header('Location: /proyectoDeSoftware/P3/ej2/ej9.html');
 }
 
 ?>

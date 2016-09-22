@@ -24,8 +24,17 @@
             }
             if ($log) {
                 session_start();
-                $_SESSION["logged_in"]= true;
-                header('Location: /proyectoDeSoftware/P3/indexej4.php');
+                $value = $_SESSION["logged_in"];
+                if ($value) {
+                  // ej 5
+                  $message = "Ya hay otro usuario logueado!";
+                  echo "<form method='post' action='ej4.php'><input type='text' placeholder='Usuario' name='username'/><br><input type='password' name='pass' /><br><input type='submit' value='Loguearse'/><br></form>";
+                  echo "<script type='text/javascript'>alert('$message');</script>";
+                } else {
+                  $_SESSION["logged_in"]= true;
+                  // ej 6
+                  header('Location: /proyectoDeSoftware/P3/ej2/productos.php');
+                }
 
             } else {
                 echo "<h1>Wrong user or password!, try again</h1>";

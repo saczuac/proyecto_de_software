@@ -9,8 +9,10 @@
     <header><h1>Web del Buffet</h1></header>
     <nav>
         <ul>
-           <li><a href="ej9.html">Inicio</a></li>
-           <li><a href="">Productos</a></li>
+           <?php
+              include '../indexej4.php';
+            ?>
+             <li><a href="../ej7.php">Listado de Productos</a></li>
        </ul>
     </nav>
     <h2>Alta productos</h2><hr><br>
@@ -48,7 +50,7 @@
           }
       ?>
       <br><br>
-      <label for="barcode">Código: </label>
+      <label for="barcode">Stock: </label>
       <?php
          if (isset($_POST["barcode"])) {
             $barcode = $_POST["barcode"];
@@ -106,8 +108,19 @@
         </script>";
     } else {
         if (isset($_POST["category"])){
-            $message = "Producto agregado con éxito!";
-            echo "<script type='text/javascript'>alert('$message');</script>";
+          // ej8
+          $data_line = "";
+          $fh = fopen("../productos.csv", "a");
+          $data_array = array();
+          $data_array[] = $_POST['producto']; //contractor
+          $data_array[] = $_POST['markName']; //hours
+          $data_array[] = $_POST['barcode']; //project
+          $data_array[] = "5"; // 5 como precio unitario de todos..
+          $data_line = '"'.implode('","',$data_array).'"'."\n";
+          fwrite($fh, $data_line);
+          fclose($fh);
+          $message = "Producto agregado con éxito!";
+          echo "<script type='text/javascript'>alert('$message');</script>";
         }
     }
 
